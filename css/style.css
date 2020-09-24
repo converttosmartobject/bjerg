@@ -5,7 +5,6 @@
 
 body {
 	background: #000;
-	background-image: url("images/light.jpg");
 }
 
 main {
@@ -140,5 +139,9 @@ a:active {
 	height: 45px;
 	padding-left: 16px;
 	padding-right: 16px;
+}
 
+.mountains {
+	width: 100%;
+	height: auto;
 }
