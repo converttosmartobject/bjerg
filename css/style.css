@@ -50,10 +50,13 @@ main {
 
 h1 {
 	margin-top: 75px;
-	/* color: #ff3d00; */
-	color: white;
-	font-family: Helvetica, serif;
+	color: #ff3d00;
+	/* color: white; */
+	/* font-family: Helvetica, serif; */
+font-family: 'Days One', sans-serif;
+/* -webkit-text-stroke: 1px #ff3d00; */
 	font-size: 60px;
+	letter-spacing: 10px;
 }
 
 h2 {
@@ -71,7 +74,7 @@ h3 {
 p {
 	color: #eda79a;
 	font-family: Helvetica, serif;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 /* unvisited link */
