@@ -23,5 +23,106 @@
 	</nav>
 </header>
 	<h1>APPLICATION</h1>
+	<section id="overlay">
+	 <form action="submission.html" method="POST">
+		 				<h3>Our program is not suited for everyone and not everyone is suited for our program.
+							This form will help us evaluate who you are as a person and if BJERG is the right choice for you.</h3>
+		 <section class="textentry">
+			 <label for="name">Your name (optional and doesn't have to be real) </label>
+			 <input type="text" name="name" id="name">
+		 </section>
+		 <hr>
+		 <section>
+			 <label for="scholarly">Which of these philosophers' ideology resonate most with you? You can choose more than one option.</label>
+			 <br>
+			 <input type="checkbox" name="philosopher" id="Plato">
+			 <label for="plato">Plato</label>
+			 <input type="checkbox" name="philosopher" id="Socrates">
+			 <label for="socrates">Socrates</label>
+			 <input type="checkbox" name="philosopher" id="Marx">
+			 <label for="marx">Marx</label>
+			 <input type="checkbox" name="philosopher" id="Lao-Tzu">
+			 <label for="lao-tzu">Lao-Tzu</label>
+			 <input type="checkbox" name="philosopher" id="Kant">
+			 <label for="kant">Kant</label>
+			 <input type="checkbox" name="philosopher" id="Descartes">
+			 <label for="descartes">Descartes</label>
+			 <input type="checkbox" name="philosopher" id="Confucius">
+			 <label for="confucius">Confucius</label>
+			 <input type="checkbox" name="philosopher" id="Ramanuja">
+			 <label for="Ramanuja">Ramanuja</label>
+			 <input type="checkbox" name="philosopher" id="Otherphilosopher">
+			 <label for="otherphilosopher">Other</label>
+			 <input type="text" name="otherphilosopher" id="otherphilosopher">
+		 </section>
+		 <hr>
+		 <section>
+			 <label for="personal">What are some of your personal or scholarly interests?</label>
+			 <input type="text" name="interests" id="interests">
+		 </section>
+		 <hr>
+		 <section>
+			 <label for="passion">How badly do you want to be a part of this project?</label>
+			 <br>
+			 <span>Mildly Interested</span>
+			 <input type="range" name="passion" id="passion" value="3" min="1" max="5">
+			 <span>Highly Desired</span>
+		 </section>
+		 <hr>
+
+		 <section class="toppings">
+			 <span>What toppings would you like?</span>
+			 <br>
+			 <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+			 <label for="lettuce">Lettuce</label>
+			 <input type="checkbox" name="topping" id="tomato" value="tomato">
+			 <label for="tomato">Tomato</label>
+			 <input type="checkbox" name="topping" id="onion" value="onion">
+			 <label for="onion">Onion</label>
+		 </section>
+		 <hr>
+
+		 <section class="cheesy">
+			 <span>Would you like to add cheese?</span>
+			 <br>
+			 <input type="radio" name="cheese" id="yes" value="yes">
+			 <label for="yes">Yes</label>
+			 <input type="radio" name="cheese" id="no" value="yes">
+			 <label for="no">No</label>
+		 </section>
+		 <hr>
+
+		 <section class="bun-type">
+			 <label for="bun">What type of bun would you like?</label>
+			 <select name="bun" id="bun">
+				 <option value="sesame">Sesame</option>
+				 <option value="potatoe">Potato</option>
+				 <option value="pretzel">Pretzel</option>
+			 </select>
+		 </section>
+		 <hr>
+
+		 <section class="sauce-selection">
+			 <label for="sauce">What type of sauce would you like?</label>
+			 <input list="sauces" id="sauce" name="sauce">
+			 <datalist id="sauces">
+				 <option value="ketchup"></option>
+				 <option value="mayo"></option>
+				 <option value="mustard"></option>
+			 </datalist>
+		 </section>
+		 <hr>
+		 <section class="extra-info">
+			 <label for="extra">Anything else you want to add?</label>
+			 <br>
+			 <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+		 </section>
+		 <hr>
+
+		 <section class="submission">
+			 <input type="submit" value="Submit">
+		 </section>
+	 </form>
+ </section>
 </body>
 </html>
