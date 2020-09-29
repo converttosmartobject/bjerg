@@ -59,18 +59,22 @@ font-family: 'Days One', sans-serif;
 }
 
 h2 {
-	color: #bd604f;
+	/* color: #bd604f; */
+	color: #b81e6f;
 	font-family: Helvetica, serif;
-	font-size: 30px;
+	font-size: 45px;
 	margin-left: 40px;
-	max-width: 500px;
+	max-width: 750px;
 }
 
 h3 {
 	/* color: #bd604f; */
-	color: #b81e6f;
+	color: white;
 	font-family: Helvetica, serif;
 	font-size: 20px;
+	margin-left: 40px;
+	max-width: 750px;
+	line-height: 1.6;
 }
 
 p {
@@ -78,7 +82,13 @@ p {
 	font-family: Helvetica, serif;
 	font-size: 15px;
 	margin-left: 40px;
-	max-width: 500px;
+	max-width: 700px;
+}
+
+h4 {
+			color: #b81e6f;
+			font-size: 20px;
+			font-family: Helvetica, serif;
 }
 
 /* unvisited link */
@@ -214,7 +224,7 @@ form hr {
 	width: 12%;
 	display: inline-block;
 	border-radius: 25px;
-	border: 10px solid #b81e6f;
+	border: 10px solid #d485ae;
 }
 
 .submitbtn a {
