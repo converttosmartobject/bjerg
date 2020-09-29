@@ -1,48 +1,29 @@
-/** {
-	margin: auto;
-	padding: auto;
-}*/
-
 body {
 	background: #000;
 }
 
+/* For the Project Notes page thats linked on the BJERG homepage but not actually part of the BJERG website*/
 main {
   display: grid;
   grid-template-columns: repeat(3, 450px);
   grid-template-rows: repeat(1, 450px);
   grid-gap: 20px;
-  margin-top: 44px;
   grid-auto-rows: 500px;
-  justify-items: center;
-  justify-content: center;
-  align-items: stretch;
-  align-content: left;
   grid-auto-flow: column;
+	margin-top: 44px;
+	margin-left: 40px;
 }
 
-.WebsiteConcept {
-  /* box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.5); */
-  width: 400px;
+.projectnotesbox {
+  width: 480px;
 }
 
-.ProblemStatement {
-  /* box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.5); */
-  width: 400px;
-}
-
-.DesignProposal {
-  /* box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.5); */
-  width: 400px;
-}
-
-.description {
-  font-family: Work Sans;
+.projectnotes {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.5px;
   text-align: left;
-  color: #f7bfb5;
+  color: #d485ae;
   padding: 10px 0px 0px 0px;
   border-top: 1px solid #4a4a4a;
 }
@@ -50,16 +31,12 @@ main {
 h1 {
 	margin-top: 75px;
 	color: #ff3d00;
-	/* color: white; */
-	/* font-family: Helvetica, serif; */
-font-family: 'Days One', sans-serif;
-/* -webkit-text-stroke: 1px #ff3d00; */
+	font-family: 'Days One', sans-serif;
 	font-size: 60px;
 	letter-spacing: 10px;
 }
 
 h2 {
-	/* color: #bd604f; */
 	color: #b81e6f;
 	font-family: Helvetica, serif;
 	font-size: 45px;
@@ -68,13 +45,18 @@ h2 {
 }
 
 h3 {
-	/* color: #bd604f; */
 	color: white;
 	font-family: Helvetica, serif;
 	font-size: 20px;
 	margin-left: 40px;
 	max-width: 750px;
 	line-height: 1.6;
+}
+
+h4 {
+	color: #b81e6f;
+	font-size: 20px;
+	font-family: Helvetica, serif;
 }
 
 p {
@@ -85,77 +67,22 @@ p {
 	max-width: 700px;
 }
 
-h4 {
-			color: #b81e6f;
-			font-size: 20px;
-			font-family: Helvetica, serif;
-}
-
-/* unvisited link */
-/* a:link {
-  color: white;
-} */
-
-/* visited link */
-/* a:visited {
-  color: lightgreen;
-} */
-
-/* mouse over link */
-/* a:hover {
-  color: lightgreen;
-} */
-
-/* selected link */
-/* a:active {
-  color: green;
-} */
-
-/* styling the top navigation bar */
-/* .topnav {
-  background-color: black;
-	top: 0;
-	width: 100%; */
-	/* position:fixed; */
-	/* display: flex;
-	justify-content: center;
-} */
-
-/* styling links inside the navigation bar */
-/* .topnav a {
-  float: left;
-  text-align: center;
-  padding: 14px 60px;
-  text-decoration: none;
-	color: #eda79a;
-	font-family: Helvetica, serif;
-	font-size: 16px;
-} */
-
-/* styling for active/current link in top navigation bar */
-/* .topnav a.active {
-  background-color: #eda79a;
-  color: black;
-} */
-
-p a{
+p a {
 	color: white;
 }
-
-/* got this from codepen "basic navbar with logo - side by side" */
-*{transition:all 0.3s ease-in-out;}
 
 .mainHeader {
   clear:both;
   overflow:auto;
-	background-color: black;
 }
 
 nav{float:right;}
 
-.bjerg_logo img{float:left;}
+.bjerg_logo img {
+	float:left;
+}
 
-ul li a{
+ul li a {
 	text-decoration: none;
 	background-color: #d485ae;
 	color: black;
@@ -168,10 +95,9 @@ ul li a{
 
 ul li a:hover{
   color: #b81e6f;
-}
-
-ul li a:active{
-	color: white;
+	/* got this line below from codepen Craig shared with me "basic navbar with logo - side by side" by Wajahat Rasool;
+	the links in the navbar fade from white to magenta when hovering*/
+	transition:all 0.3s ease-in-out;
 }
 
 .active{
@@ -179,17 +105,19 @@ ul li a:active{
 }
 
 .logo {
-	width: 55%;
+	width: 45%;
 	height: auto;
 	padding-left: 16px;
 	padding-right: 16px;
 }
 
+/* styling the large graphic image on the homepage */
 .mountains {
 	width: 100%;
 	height: auto;
 }
 
+/* styling the graphic images on the other pages */
 .graphics {
 	width: 600px;
 	height: auto;
@@ -197,6 +125,7 @@ ul li a:active{
 	padding-right: 45px;
 }
 
+/* styling the base for the application form */
 #overlay {
   width: 70%;
   margin: 3% auto;
@@ -215,19 +144,19 @@ form {
 	font-size: 16px;
 }
 
+/* horizontal rule separating each question in the application form */
 form hr {
   width: 45%;
 }
 
 .submitbtn {
 	background-color: white;
-	width: 12%;
+	width: 100px;
 	display: inline-block;
 	border-radius: 25px;
 	border: 10px solid #d485ae;
 }
 
 .submitbtn a {
-	/* color: #b81e6f; */
 	color: #d485ae;
 }
