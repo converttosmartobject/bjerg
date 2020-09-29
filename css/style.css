@@ -210,7 +210,14 @@ form hr {
 }
 
 .submitbtn {
-	background-color: #d485ae;
-	width: 15%;
+	background-color: white;
+	width: 12%;
 	display: inline-block;
+	border-radius: 25px;
+	border: 10px solid #b81e6f;
+}
+
+.submitbtn a {
+	/* color: #b81e6f; */
+	color: #d485ae;
 }
