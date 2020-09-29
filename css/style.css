@@ -3,6 +3,9 @@ body {
 }
 
 /* For the Project Notes page thats linked on the BJERG homepage but not actually part of the BJERG website*/
+
+/* referenced CodeAcademy Learn CSS course for arranging the contents into a grid:
+https://www.codecademy.com/learn/learn-css/modules/learn-css-grid/cheatsheet */
 main {
   display: grid;
   grid-template-columns: repeat(3, 450px);
@@ -71,6 +74,10 @@ p a {
 	color: white;
 }
 
+/*modified code for mainHeader, div, nav, ul from codepen Craig shared with me
+"basic navbar with logo - side by side" by Wajahat Rasool:
+https://codepen.io/wajahat/pen/ORXvop?editors=1100*/
+
 .mainHeader {
   clear:both;
   overflow:auto;
@@ -95,8 +102,7 @@ ul li a {
 
 ul li a:hover{
   color: #b81e6f;
-	/* got this line below from codepen Craig shared with me "basic navbar with logo - side by side" by Wajahat Rasool;
-	the links in the navbar fade from white to magenta when hovering*/
+	/* links in the navbar fade from black to magenta when hovering*/
 	transition:all 0.3s ease-in-out;
 }
 
@@ -139,6 +145,9 @@ ul li a:hover{
 	padding-right: 45px;
 }
 
+/* used forms on CodeAcademy HTML lesson for reference:
+https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet */
+
 /* styling the base for the application form */
 #overlay {
   width: 70%;
@@ -164,13 +173,15 @@ form hr {
 }
 
 .submitbtn {
-	background-color: white;
-	width: 100px;
+	background-color: #f2805c;
+	width: 150px;
 	display: inline-block;
-	border-radius: 25px;
+	border-radius: 20px;
 	border: 10px solid #d485ae;
 }
 
 .submitbtn a {
-	color: #d485ae;
+	color: white;
+	font-size: 30px;
+	text-decoration: none;
 }

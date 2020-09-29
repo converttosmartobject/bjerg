@@ -8,6 +8,9 @@
 	<title>BJERG: Application Form</title>
 </head>
 <body>
+	<!-- modified code for mainHeader, div, nav, ul from codepen Craig shared with me
+	"basic navbar with logo - side by side" by Wajahat Rasool:
+	https://codepen.io/wajahat/pen/ORXvop?editors=1100-->
 	<header class="mainHeader">
 	<div class="bjerg_logo">
 		<a href="index.html"><img src="images/bjerg logo.svg" alt="BJERG" class="logo"></a>
@@ -22,6 +25,8 @@
 	</nav>
 </header>
 	<h1>APPLICATION</h1>
+	<!-- used forms on CodeAcademy HTML lesson for reference:
+	https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet -->
 	<section id="overlay">
 		<!-- Not sure how to use method="POST" to collect submitted responses -->
 	 <form action="submission.html" method="POST">
@@ -34,7 +39,7 @@
 		 </section>
 		 <hr>
 		 <section>
-			 <label for="scholarly">Which of these philosophers' ideology resonate most with you? You can choose more than one option.</label>
+			 <label for="philosopher">Which of these philosophers' ideology resonate most with you? You can choose more than one option.</label>
 			 <br>
 			 <input type="checkbox" name="philosopher" id="Plato">
 			 <label for="plato">Plato</label>
@@ -58,9 +63,9 @@
 		 </section>
 		 <hr>
 		 <section>
-			 <label for="personal">What are some of your personal or scholarly interests?</label>
+			 <label for="interests">What are some of your personal or scholarly interests?</label>
 			 <br>
-			 <textarea id="interests" name="interests" rows="3" cols="40"></textarea>
+			 <textarea id="interests" name="interests" rows="3" cols="60"></textarea>
 		 </section>
 		 <hr>
 		 <section>
@@ -74,13 +79,13 @@
 		 <section>
 			 <label for="personal">What potential problems do you anticipate arising if you joined BJERG? How do you plan to deal with things like that?</label>
 			 <br>
-			 <textarea id="problems" name="problems" rows="3" cols="40"></textarea>
+			 <textarea id="problems" name="problems" rows="3" cols="60"></textarea>
 		 </section>
 		 <hr>
 		 <section>
 			 <span>Are you interested in art or literature? Favorites?</span>
 			 <br>
-			 <textarea id="art" name="art" rows="3" cols="40"></textarea>
+			 <textarea id="art" name="art" rows="3" cols="60"></textarea>
 		 </section>
 		 <hr>
 		 <section>
@@ -88,31 +93,49 @@
 			 <br>
 			 <input type="radio" name="escape" id="yes" value="yes">
 			 <label for="yes">Yes</label>
-			 <input type="radio" name="cheese" id="no" value="no">
+			 <input type="radio" name="escape" id="no" value="no">
 			 <label for="no">No</label>
 		 </section>
 		 <hr>
 		 <section>
 			 <span>Are you interested in psychonautics?</span>
 			 <br>
-			 <input type="radio" name="escape" id="yes" value="yes">
+			 <input type="radio" name="psyche" id="yes" value="yes">
 			 <label for="yes">Yes</label>
-			 <input type="radio" name="cheese" id="no" value="no">
+			 <input type="radio" name="psyche" id="no" value="no">
 			 <label for="no">No</label>
 		 </section>
 		 <hr>
 		 <section>
-			 <label for="extra">What are your thoughts on:</label>
+			 <label for="extra">Very briefly describe your thoughts on:</label>
 			 <br>
 			 <label for="politics">Politics</label>
-			 <input type="text" name="politics" id="politics">
+			 <input type="text" name="thoughts" id="politics">
 			 <label for="religion">Religion</label>
-			 <input type="text" name="religion" id="religion">
+			 <input type="text" name="thoughts" id="religion">
 		 </section>
 		 <label for="capitalism">Capitalism</label>
-		 <input type="text" name="capitalism" id="capitalism">
+		 <input type="text" name="thoughts" id="capitalism">
 		 <label for="privacy">Privacy</label>
-		 <input type="text" name="privacy" id="privacy">
+		 <input type="text" name="thoughts" id="privacy">
+		 <hr>
+		 <section>
+			 <span>Would you be willing and able to reject all preconceived notions of human society as we knew it in the old world?</span>
+			 <br>
+			 <input type="radio" name="reject" id="yes" value="yes">
+			 <label for="yes">Yes</label>
+			 <input type="radio" name="reject" id="no" value="no">
+			 <label for="no">No</label>
+		 </section>
+		 <hr>
+		 <section>
+			 <span>How does the idea of transforming from a human into a new form of being made up of raw data sound to you?</span>
+			 <br>
+			 <input type="radio" name="transform" id="liberating" value="liberating">
+			 <label for="yes">Liberating</label>
+			 <input type="radio" name="transform" id="horrifying" value="horrifying">
+			 <label for="no">Horrifying</label>
+		 </section>
 		 <hr>
 		 <section class="submitbtn">
 			 <h4><a href="submission.html">SUBMIT</a></h4>
