@@ -141,6 +141,7 @@ ul li a:hover{
 	height: auto;
 	float: right;
 	padding-right: 45px;
+	padding-left: 45px;
 }
 
 .shield {
@@ -148,6 +149,7 @@ ul li a:hover{
 	height: 600px;
 	float: right;
 	padding-right: 45px;
+	padding-left: 45px;
 }
 
 .bubble {
@@ -155,6 +157,7 @@ ul li a:hover{
 	height: 400px;
 	float: right;
 	padding-right: 45px;
+	padding-left: 45px;
 }
 
 /* used forms on CodeAcademy HTML lesson for reference:
