@@ -92,7 +92,7 @@ nav{float:right;}
 .bjerg_logo a {
 	float: left;
 	/* Got this code for text stroke from: https://css-tricks.com/adding-stroke-to-web-text/ */
-	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+	-webkit-text-fill-color: black; 
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: white;
 	font-family: 'Days One', sans-serif;
