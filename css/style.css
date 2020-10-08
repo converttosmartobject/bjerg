@@ -85,8 +85,20 @@ https://codepen.io/wajahat/pen/ORXvop?editors=1100*/
 
 nav{float:right;}
 
-.bjerg_logo img {
+/* .bjerg_logo img {
 	float:left;
+} */
+
+.bjerg_logo a {
+	float: left;
+	/* Got this code for text stroke from: https://css-tricks.com/adding-stroke-to-web-text/ */
+	-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+	font-family: 'Days One', sans-serif;
+	font-size: 150px;
+	letter-spacing: 8px;
+	text-decoration: none;
 }
 
 ul li a {
