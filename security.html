@@ -13,15 +13,32 @@
 	https://codepen.io/wajahat/pen/ORXvop?editors=1100-->
 	<header class="mainHeader">
 	<div class="bjerg_logo">
-		<a href="index.html">BJERG</a>	</div>
-	<nav>
-	  <ul>
-	  <li><a href="betterworld.html">A BETTER WORLD</a></li>
-	  <li><a href="bubble.html">ABOUT THE BUBBLE</a></li>
-	  <li><a class="active" href="security.html">SECURITY & MAINTENANCE</a></li>
-	  <li><a href="application.html">APPLY NOW</a></li>
-	  </ul>
+		<!-- <a href="index.html"><img src="images/bjerg logo.svg" alt="BJERG" class="logo"></a> -->
+		<a href="index.html">BJERG</a>
+	</div>
+
+	<!--    Hamburger menu, reference by Erik Terwan's Codepen: https://codepen.io/erikterwan/pen/EVzeRP    -->
+
+	<nav role="navigation">
+	  <div id="menuToggle">
+	    <!-- A fake / hidden checkbox is used as click reciever,
+	    so you can use the :checked selector on it. -->
+	    <input type="checkbox" />
+
+	    <!-- Spans make up the icon -->
+	    <span></span>
+	    <span></span>
+	    <span></span>
+
+	    <ul id="menu">
+				<li><a href="betterworld.html">A BETTER WORLD</a></li>
+				<li><a href="bubble.html">ABOUT THE BUBBLE</a></li>
+				<li><a class="active" href="security.html">SECURITY & MAINTENANCE</a></li>
+				<li><a href="application.html">APPLY NOW</a></li>
+	    </ul>
+	  </div>
 	</nav>
+
 </header>
 	<h1>SECURITY & MAINTENANCE</h1>
 	<img src="images/bjerg safe.svg" alt="security" class="shield">
