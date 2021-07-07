@@ -344,10 +344,7 @@ form hr {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
+/* Make this absolute positioned at the top left of the screen */
 #menu
 {
   /* position: absolute; */
@@ -372,7 +369,7 @@ form hr {
 #menu li
 {
   /* padding: 10px 0; */
-  font-size: 22px;
+  font-size: 30px;
 }
 
 /*
