@@ -159,33 +159,43 @@ https://www.codecademy.com/learn/learn-html/modules/learn-html-forms/cheatsheet 
 #overlay {
   width: 70%;
   margin: 3% auto;
-  height: 95vh;
-  background-color: rgba(241, 218, 230, 0.9);
-  border-radius: 40px;
+  /* height: 95vh; */
+  /* background-color: rgba(241, 218, 230, 0.9); */
+  background-color: black;
+	border-style: solid;
+	border-color: white;
+  border-radius: 5px;
 }
 
 form {
-  text-align: center;
-  line-height: 30px;
+  /* text-align: center; */
+  line-height: 40px;
   height: 80%;
   overflow: auto;
-	padding-top: 20px;
+	padding: 50px;
 	/* font-family: Helvetica, serif; */
 	font-family: 'Jura', sans-serif;
+	color: white;
 	font-size: 16px;
 }
 
-/* horizontal rule separating each question in the application form */
-form hr {
-  width: 45%;
+label {
+	padding: 10px;
 }
 
+/* horizontal rule separating each question in the application form */
+/* form hr {
+  width: 45%;
+} */
+
 .submitbtn {
-	background-color: #f2805c;
+	background-color: black;
 	width: 150px;
 	display: inline-block;
-	border-radius: 20px;
-	border: 10px solid #d485ae;
+	border-radius: 5px;
+	border: solid #ff3d00;
+	text-align: center;
+
 }
 
 .submitbtn a {
@@ -356,6 +366,8 @@ form hr {
   background: #black;
 	border-style: solid;
 	border-color: white;
+	border-radius: 5px;
+
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */

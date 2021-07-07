@@ -53,10 +53,10 @@
 				This form will help us evaluate who you are as a person and if BJERG is the right choice
 				for you.</h4>
 		 <section class="textentry">
-			 <label for="name">Your name (optional and doesn't have to be real) </label>
+			 <label for="name">Your name (optional and doesn't have to be real):</label>
 			 <input type="text" name="name" id="name">
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
 			 <label for="philosopher">Which of these philosophers' ideology resonate most with you? You can choose more than one option.</label>
 			 <br>
@@ -77,16 +77,16 @@
 			 <input type="checkbox" name="philosopher" id="Ramanuja">
 			 <label for="Ramanuja">Ramanuja</label>
 			 <input type="checkbox" name="philosopher" id="Otherphilosopher">
-			 <label for="otherphilosopher">Other</label>
+			 <label for="otherphilosopher">Other - Please specify here: </label>
 			 <input type="text" name="otherphilosopher" id="otherphilosopher">
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
 			 <label for="interests">What are some of your personal or scholarly interests?</label>
 			 <br>
 			 <textarea id="interests" name="interests" rows="3" cols="60"></textarea>
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
 			 <label for="passion">How badly do you want to be a part of this project?</label>
 			 <br>
@@ -94,19 +94,19 @@
 			 <input type="range" name="passion" id="passion" value="3" min="1" max="5">
 			 <span>Highly Desired</span>
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
 			 <label for="personal">What potential problems do you anticipate arising if you joined BJERG? How do you plan to deal with things like that?</label>
 			 <br>
 			 <textarea id="problems" name="problems" rows="3" cols="60"></textarea>
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
 			 <span>Are you interested in art or literature? Favorites?</span>
 			 <br>
 			 <textarea id="art" name="art" rows="3" cols="60"></textarea>
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
 			 <span>Are you trying to escape something?</span>
 			 <br>
@@ -115,7 +115,7 @@
 			 <input type="radio" name="escape" id="no" value="no">
 			 <label for="no">No</label>
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
 			 <span>Are you interested in psychonautics?</span>
 			 <br>
@@ -124,20 +124,13 @@
 			 <input type="radio" name="psyche" id="no" value="no">
 			 <label for="no">No</label>
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
-			 <label for="extra">Very briefly describe your thoughts on:</label>
+			 <label for="extra">Briefly describe your thoughts on the following and their interconnections: Politics, Religion, Neoliberalism, Privacy</label>
 			 <br>
-			 <label for="politics">Politics</label>
-			 <input type="text" name="thoughts" id="politics">
-			 <label for="religion">Religion</label>
-			 <input type="text" name="thoughts" id="religion">
-		 </section>
-		 <label for="capitalism">Capitalism</label>
-		 <input type="text" name="thoughts" id="capitalism">
-		 <label for="privacy">Privacy</label>
-		 <input type="text" name="thoughts" id="privacy">
-		 <hr>
+	 <textarea id="fourwords" name="fourwords" rows="3" cols="60"></textarea>
+		 		 </section>
+		 <!-- <hr> -->
 		 <section>
 			 <span>Would you be willing and able to reject all preconceived notions of human society as we knew it in the old world?</span>
 			 <br>
@@ -146,7 +139,7 @@
 			 <input type="radio" name="reject" id="no" value="no">
 			 <label for="no">No</label>
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section>
 			 <span>How does the idea of transforming from a human into a new form of being made up of raw data sound to you?</span>
 			 <br>
@@ -155,9 +148,11 @@
 			 <input type="radio" name="transform" id="horrifying" value="horrifying">
 			 <label for="no">Horrifying</label>
 		 </section>
-		 <hr>
+		 <!-- <hr> -->
 		 <section class="submitbtn">
-			 <h4><a href="submission.html">SUBMIT</a></h4>
+			 <h4>
+				 <a href="submission.html">SUBMIT</a>
+			 </h4>
 		 </section>
 	 </section>
 	 </form>
