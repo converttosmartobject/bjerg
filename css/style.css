@@ -1,6 +1,10 @@
 body {
   background: #000;
   overflow-x: hidden;
+  /* background-image: url("../images/bjerg mountains edit.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+	background-position: center; */
 }
 
 /* For the Project Notes page thats linked on the BJERG homepage but not actually part of the BJERG website*/
@@ -222,6 +226,13 @@ label {
     width: 80%;
     padding-top: 200px;
   }
+
+  body {
+    background-image: url("../images/bjerg mountains edit.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -355,6 +366,10 @@ label {
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  background-image: url("../images/bjerg mountains edit.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
 }
 
 #menu li {
